@@ -8,6 +8,8 @@ class Minesweeper:
     def __init__(self):
         self.root = tk.Tk()
 
+        self.root.geometry("700x500")
+
         self.label = tk.Label(self.root, text='Your Message')
         self.label.pack(padx=10, pady=10)
 
