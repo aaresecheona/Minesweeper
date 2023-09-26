@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 
 
-class Minesweeper:
+class MinesweeperGUI:
 
     def __init__(self):
         self.root = tk.Tk()
@@ -56,4 +56,4 @@ class Minesweeper:
             self.root.destroy()
 
 
-Minesweeper()
+MinesweeperGUI()
